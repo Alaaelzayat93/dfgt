@@ -123,6 +123,9 @@ background-color: rgba(0, 0, 0, 0.6);
 .section3{
   margin-top: 20px;
 }
+.section3 h2{
+  margin-top: 57px;
+}
 .section3 p{
   color:#ccc;
 }
