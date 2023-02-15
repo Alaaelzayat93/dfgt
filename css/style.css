@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    overflow-x: hidden;
+    direction: rtl;
+    font-family: "cairo",sans-serif;
+}
+h1{
+  color:green;
+}
+h2{
+  color: green;
+}
+/*topbar*/
+.topbar{
+  height: 45px;
+  background:linear-gradient(green,#1577CA);
+}
+.topbar span{
+  color:#fff;
+}
+.topbar .social{
+  color:#fff;
+  margin-top: 6px !important;
+}
+.topbar .address{
+  text-align: center;
+  margin-top: 6px !important;
+}
+.topbar .phone{
+  color:greenyellow;
+  text-align: center;
+  margin-top: 6px !important;
+}
+.navbar{
+  box-shadow: 1px 2px 3px green;
+}
+.parent1{
+    width:100%;
+    height: 60px;
+    background-color: grey;
+    overflow: auto;
+}
+.title1{
+    text-align: center !important;
+    
+}
+.text-center{
+    text-align: center;
+}
+.img1{
+    height: 60px;
+    float: left;
+    margin-left: 100px;
+}
+.section1{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(#05062a,rgba(112, 162, 196, 0.23)),url(../img/225.jpg) no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+.overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;
+left:0;
+background-color: black;
+background-color: rgba(0, 0, 0, 0.6);
+}
+.section1 .title1{
+    color: #fff;
+    font-size: 60px;
+}
+.para1{
+    color:#fff;
+     text-align: center;
+}
+.div4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.div4 .buttons{
+    text-align: center;
+}
+.start{
+    width: 166px;
+    height: 60px;
+    background-color: #1577CA;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+.start:hover,.learn:hover{
+    opacity: .7;
+}
+.learn{
+    width: 166px;
+    border-radius: 20px;
+    height: 60px;
+}
+.section2{
+    text-align: center;
+    margin:50px;
+}
+.request{
+    width: 200px;
+    height: 60px;
+    background-color: #1577CA;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+.section3{
+  margin-top: 20px;
+}
+.section3 p{
+  color:#ccc;
+}
+.section3 img{
+    max-width: 100%;
+}
+.content{
+    margin: 20px 10px;
+}
+.content .desctop,.content .roller{
+  color: #1577CA !important;
+  font-size: 35px !important;
+}
+/*nav.navbar {
+    background: transparent;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+}*/
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    color:green !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.btn{
+    background-color: #1577CA !important;
+    color:#fff !important;
+    width: 125px !important;
+}
+.carousel-control-next,.carousel-control-prev{
+  opacity: .5;
+}
+.carousel-control-prev-icon{
+  color:green !important;
+}
+.contant{
+  bottom:50% !important;
+}
+.contant .head5{
+  font-size: 40px;
+  color: green;
+}
+.contant .contact{
+  background: #1577CA;
+    color: #fff;
+    padding: 10px 46px;
+    border-radius: 20px;
+    border: 0;
+}
+.contant .contact:hover{
+  opacity: .7;
+  color:#fff;
+  background: #81D421;
+}
+.carousel-inner{
+  height: 500px !important;
+}
+.carousel-indicators{
+  bottom: 20% !important;
+}
+/*about us*/
+.about-us{
+  background: url(../img/أفضل-شركة-تنظيف-مكيفات-بالرياض.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.about-head{
+  background: #1577CA;
+    padding: 50px;
+}
+.about-head h2{
+  color: #fff;
+}
+
+.about-para{
+  background: #81D421;
+    color: #fff;
+    padding: 30px;
+    border: 1px solid #fff;
+    position: relative;
+}
+.about-para:after {
+  border-left: 8px solid #fff;
+  border-right: 8px solid transparent;
+  border-top: 11px solid #fff;
+  border-bottom: 11px solid transparent;
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: 8px;
+}
+.about-para p{
+  color: green;
+  line-height: 27px;
+  font-size: 15px;
+  padding: 20px 10px;
+  background-color: #fff;
+  margin: 0
+}
+/**end about*/
+/*start services*/
+.services{
+    padding:50px 0;
+    background: #f2f2f2;
+  }
+  section.services .section-title{
+      font-size: 50px;
+      margin: 20px;
+  }
+  section.services .line{
+      width: 200px;
+      background: #ddd;
+      height: 1px;
+      margin: auto;
+      margin-bottom: 10px;
+  }
+  section.services .line span{
+      display: block;
+      width:100px;
+      background: blue;
+      height: 4px;
+      margin: auto;
+  }
+ .services .feet{
+  border: 1px solid #ddd;
+    padding: 10px 20px;
+    box-shadow: 1px 2px 3px green;
+    margin: 10px 20px;
+ }
+  .services .feet h4{
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  .services .feet p{
+    font-size: 16px;
+      line-height: 1.65;
+      font-family: "Open Sans", sans-serif;
+      color:#ccc;
+      
+  }
+  .service{
+    text-decoration: none;
+    color:#000;
+    border:1px solid #000;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    
+  }
+  /*    plog   */
+  .plog .line{
+    width: 90px;
+    background: #ddd;
+    height: 1px;
+    margin-bottom: 10px;
+}
+.plog .line span{
+    display: block;
+    width:57px;
+    background: blue;
+    height: 4px;
+}
+  .plog{
+    margin-top:30px;
+  }
+  .plog .feet{
+    border:1px solid #ccc;
+  }
+  .plog .feet p{
+    font-size: 16px;
+      line-height: 1.65;
+      font-family: "Open Sans", sans-serif;
+      color:#ccc;
+      
+  }
+  .plog .feet h4{
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  /*rates*/
+section.rates{
+    background: linear-gradient(#05062a,rgba(31, 24, 8, 0.23)),url(../img/cleaning-service.png) no-repeat;
+   background-size: cover;
+   color:#fff;
+   height: 300px;
+   background-attachment: fixed;
+   padding: 50px 50px;
+ }
+ /*rates*/
+ 
+ section.rates .rate i{
+     
+      font-size: 30px;
+     background: #948a82;
+     padding: 20px 20px;
+     border-radius: 50%;
+     margin-bottom: 20px;
+ 
+ }
+ section.rates .rate span{
+     display: block;
+ 
+ }
+ section.rates .rate h5{
+     font-size: 1rem;
+ }
+ @media(max-width: 992px){
+   section.rates{
+     height: auto;
+   }
+ }
+ .success{
+  margin: 10px 20px;
+  padding: 20px 20px;
+ }
+ /*start contact*/
+.contact{
+  margin-top:30px;
+  background:linear-gradient(#000111,rgba(8, 6, 0, 0.23)),url(../img/225.jpg) no-repeat;
+  padding: 20px 20px;
+}
+.contact h1{
+  color: #fff;
+    margin-bottom: 20px;
+    padding: 31px 10px;
+}
+.contact input[type="text"]{
+    box-shadow: none;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid rgb(104, 104, 236);
+    width: 500px;
+    height: 40px;
+    text-align: center;
+  }
+  .contact textarea{
+    box-shadow: none;
+      border: 0;
+      outline: 0;
+      border-bottom: 2px solid blue;
+      width: 96%;
+      margin: 20px 20px;
+      text-align: center;
+  }
+  .contact button{
+    background: blue;
+      padding: 10px 20px;
+      outline: 0;
+      border: 0;
+      border-radius: 20px;
+      margin: 50px 50px;
+      color: #fff;
+  }
+  .contact button:hover{
+    background: none;
+    border:1px solid blue;
+    outline: none;
+    color:blue;
+  }
+  @media(max-width: 992px){
+    .contact input[type="text"]{
+      width:325px !important;
+    }
+    
+  }
+
+  /**footer*/
+  .footer{
+    background:linear-gradient(green,#1577CA);
+    
+    color:#fff;
+    height: 57px;
+    margin-top:-18px
+  }
+  .footer .data{
+    margin: 63px 0;
+  }
+  .footer .data h4
+  {
+    color:#ddd;
+    font-weight: bold;
+  }
+  .footer hr{
+    color:#fff;
+      height: 1px;
+      background: blue;
+  }
+  .footer footer{
+    font-size: 24px;
+      text-align: center;
+  }
+  @media(max-width: 991px){
+    .footer{
+      height: auto;
+    }
+  }
