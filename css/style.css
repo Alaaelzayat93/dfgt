@@ -390,7 +390,13 @@ section.rates{
   }
   @media(max-width: 992px){
     .contact input[type="text"]{
-      width:325px !important;
+      width:298px !important;
+      text-align: center;
+
+    }
+    .contact textarea{
+      width: 89% !important;
+      margin-top:10px;
     }
     
   }
