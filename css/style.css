@@ -190,6 +190,11 @@ background-color: rgba(0, 0, 0, 0.6);
 .carousel-indicators{
   bottom: 20% !important;
 }
+@media (max-width: 992px) {
+  .carousel-inner{
+    height: auto !important;
+  }
+}
 /*about us*/
 .about-us{
   background: url(../img/أفضل-شركة-تنظيف-مكيفات-بالرياض.jpg);
