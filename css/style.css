@@ -431,3 +431,21 @@ section.rates{
       height: auto;
     }
   }
+  /* about page           */
+  .about-page{
+    height:300px !important;
+    background: url(../bg3-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+  }
+  .about-page h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  .about-head-2{
+   font-size: 20px;
+  }
