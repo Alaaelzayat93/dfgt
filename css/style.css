@@ -306,62 +306,7 @@ section.rates{
   margin: 10px 20px;
   padding: 20px 20px;
  }
- /*start contact*/
-.contact{
-  margin-top:30px;
-  background:linear-gradient(#000111,rgba(8, 6, 0, 0.23)),url(../img/225.jpg) no-repeat;
-  padding: 20px 20px;
-}
-.contact h1{
-  color: #fff;
-    margin-bottom: 20px;
-    padding: 31px 10px;
-}
-.contact input[type="text"]{
-    box-shadow: none;
-    border: 0;
-    outline: 0;
-    border-bottom: 2px solid rgb(104, 104, 236);
-    width: 500px;
-    height: 40px;
-    text-align: center;
-  }
-  .contact textarea{
-    box-shadow: none;
-      border: 0;
-      outline: 0;
-      border-bottom: 2px solid blue;
-      width: 96%;
-      margin: 20px 20px;
-      text-align: center;
-  }
-  .contact button{
-    background: blue;
-      padding: 10px 20px;
-      outline: 0;
-      border: 0;
-      border-radius: 20px;
-      margin: 50px 50px;
-      color: #fff;
-  }
-  .contact button:hover{
-    background: none;
-    border:1px solid blue;
-    outline: none;
-    color:blue;
-  }
-  @media(max-width: 992px){
-    .contact input[type="text"]{
-      width:298px !important;
-      text-align: center;
-
-    }
-    .contact textarea{
-      width: 89% !important;
-      margin-top:10px;
-    }
-    
-  }
+ 
 
   /**footer*/
   .footer{
