@@ -275,6 +275,11 @@ background-color: rgba(6, 1, 15, 0.6);
   .plog .feet{
     border:1px solid #ccc;
     box-shadow: 1px 2px 3px green;
+    
+  }
+  .plog .feet img:hover{
+    transform: scale(.8);
+    transition: 2s;
   }
   .plog .feet p{
     font-size: 16px;
