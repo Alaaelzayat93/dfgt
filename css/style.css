@@ -350,7 +350,28 @@ section.rates{
   margin: 10px 20px;
   padding: 20px 20px;
  }
- 
+ .send{
+   text-decoration: none;
+    color:#fff;
+    border:0;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    background-color: #1577CA;
+    border-radius: 16px;
+ }
+ /**/
+ textarea{
+  height: 249px;
+ }
+ .send{
+  text-decoration: none;
+   color:#fff;
+   border:0;
+   padding: 10px 10px;
+   margin-bottom: 10px;
+   background-color: #1577CA;
+   border-radius: 16px;
+}
 
   /**footer*/
   .footer{
