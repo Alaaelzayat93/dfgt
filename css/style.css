@@ -60,7 +60,28 @@ left:0;
 background-color: black;
 background-color: rgba(0, 0, 0, 0.6);
 }
-
+.section1 .title1{
+    color: #fff;
+    font-size: 60px;
+}
+.para1{
+    color:#fff;
+     text-align: center;
+}
+/*section2 after carousel*/
+.section2{
+    text-align: center;
+    margin:50px;
+}
+.request{
+    width: 200px;
+    height: 60px;
+    background-color: #1577CA;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+}
+/*Section3*/
 .section3{
   margin-top: 20px;
 }
