@@ -19,7 +19,7 @@ h2{
 /*topbar*/
 .topbar{
   height: 45px;
-  background:linear-gradient(green,#1577CA);
+  background:#1577CA;
 }
 .topbar span{
   color:#fff;
