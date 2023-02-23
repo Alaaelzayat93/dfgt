@@ -273,7 +273,7 @@ background-color: rgba(6, 1, 15, 0.6);
     height: 4px;
 }
   .plog{
-    margin-top:30px;
+    margin:30px 30px;
   }
   .plog .Plog-feed{
     border:1px solid #ccc;
