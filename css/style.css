@@ -109,6 +109,8 @@ background-color: rgba(6, 1, 15, 0.6);
 }
 .section3 img{
     max-width: 100%;
+    box-shadow: -11px 10px #ddd;
+    border-radius: 10px;
 }
 .content{
     margin: 20px 10px;
@@ -227,9 +229,10 @@ background-color: rgba(6, 1, 15, 0.6);
   }
  .services .feet{
   border: 1px solid #ddd;
-    padding: 10px 20px;
-    box-shadow: 1px 2px 3px #1577CA;
-    margin: 10px 20px;
+  padding: 10px 20px;
+  box-shadow: -8px 8px 7px #cfcfcf;
+  margin: 10px 20px;
+  border-radius: 8px;
  }
   .services .feet h4{
     font-weight: 500;
@@ -246,7 +249,7 @@ background-color: rgba(6, 1, 15, 0.6);
   .service{
     text-decoration: none;
     color:#fff;
-    border:1px solid #000;
+    border:0;
     padding: 10px 10px;
     margin-bottom: 10px;
     background-color: #1577CA;
@@ -274,8 +277,14 @@ background-color: rgba(6, 1, 15, 0.6);
   }
   .plog .Plog-feed{
     border:1px solid #ccc;
-    box-shadow: 1px 2px 3px green;
+    box-shadow: -8px 8px 7px #cfcfcf;
+    border-radius: 20px;
+    padding:0px 20px;
     
+  }
+  .plog .Plog-feed img{
+    height: 216px;
+    object-fit: cover;
   }
   .plog .Plog-feed img:hover{
     transform: scale(.8);
@@ -296,7 +305,7 @@ background-color: rgba(6, 1, 15, 0.6);
   .btn-plg{
     text-decoration: none;
     color:#fff;
-    border:1px solid #000;
+    border:0;
     padding: 10px 10px;
     margin-bottom: 10px;
     background-color: #1577CA;
@@ -304,12 +313,14 @@ background-color: rgba(6, 1, 15, 0.6);
   }
   /*rates*/
 section.rates{
-    background: linear-gradient(#05062a,rgba(31, 24, 8, 0.23)),url(../img/cleaning-service.png) no-repeat;
+    background: linear-gradient(#05062a,rgba(31, 24, 8, 0.23)),url(../img/شركة\ تنظيف\ بسعر\ رخيص.jpg) no-repeat;
    background-size: cover;
    color:#fff;
    height: 300px;
    background-attachment: fixed;
-   padding: 50px 50px;
+   display: flex;
+  justify-content: center;
+  align-items: center;
    margin:30px 0px;
  }
  /*rates*/
