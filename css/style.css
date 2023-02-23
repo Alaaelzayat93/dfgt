@@ -343,7 +343,7 @@ section.rates{
 
   /**footer*/
   .footer{
-    background:linear-gradient(green,#1577CA);
+    background:#1577CA;
     
     color:#fff;
     height: 57px;
@@ -419,3 +419,4 @@ section.rates{
   width: 100%;
   height: 500px;
 }
+
