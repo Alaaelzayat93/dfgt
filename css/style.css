@@ -37,6 +37,8 @@ h2{
   text-align: center;
   margin-top: 6px !important;
 }
+
+
 /*navbar*/
 .navbar{
   box-shadow: 1px 2px 3px green;
@@ -386,7 +388,8 @@ section.rates{
     
     color:#fff;
     height: 57px;
-    margin-top:-18px
+    margin-top:-18px;
+    
   }
   .footer .data{
     margin: 63px 0;
@@ -409,6 +412,13 @@ section.rates{
     .footer{
       height: auto;
     }
+  }
+  .whats{
+    position: fixed;
+    bottom: 15px;
+    font-size: 50px;
+    color: green;
+    z-index: 1;
   }
   /* about page           */
   .about-page{
