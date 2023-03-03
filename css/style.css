@@ -381,6 +381,9 @@ section.rates{
   padding:50px 10px;
   color: #fff;
 }
+.section-footer span{
+  direction: ltr;
+}
 
   /**footer*/
   .footer{
