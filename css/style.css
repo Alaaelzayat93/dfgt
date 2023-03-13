@@ -422,6 +422,8 @@ section.rates{
     font-size: 50px;
     color: green;
     z-index: 1;
+    background: #fff;
+    border-radius: 50%;
   }
   /* about page           */
   .about-page{
